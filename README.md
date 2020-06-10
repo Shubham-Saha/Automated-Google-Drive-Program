@@ -9,10 +9,10 @@ After this we can upload, delete and download files from there. This is pretty m
 But if someone gets access to anyone’s Google Drive and steals the data while the owner of the data is not around ? Google can’t do anything there to stop that unauthorized person. 
 They have a feature, which is we can encrypt any of our files in the drive after uploading. But this requires much time. Visiting the website or navigating apps then uploading or downloading files, encrypting files and then decrypting them seems very much manual work in a day to day life for a regular Google Drive user.
 
-What if all of that work is done in a minimum amount of time ?
-What if the file is encrypted with AES256 while uploading it to the Drive automatically ?
-What if all the files, folders and files in folders are visible in a list ?
-What if the files are easily downloaded and then decrypted too ?
+1. What if all of that work is done in a minimum amount of time ?
+2. What if the file is encrypted with AES256 while uploading it to the Drive automatically ?
+3. What if all the files, folders and files in folders are visible in a list ?
+4. What if the files are easily downloaded and then decrypted too ?
 
 All of these are possible using Automated Google Drive Program. This program is Shell Scripted using Python.
 Reason behind the shell is to minimize the user’s time. Because we know that visiting a website or using application GUI takes a lot of time in backend processing where direct shell commands take less time to process.
@@ -27,9 +27,6 @@ This program establishes a connection with Google Drive using Google Drive API a
 
 After a successful authentication the program starts. To know how the program is working in practice, a video is uploaded. It is recommended to read the whole documentation and satisfy the prerequisites before running the program and then watch the full video to learn how to operate this program.
 
-This program is a open-source project and it has been uploaded on Github.
-
-https://github.com/Shubham-Saha/Automated-Google-Drive-Program
 
 # Prerequisites
 
