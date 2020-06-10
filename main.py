@@ -7,7 +7,6 @@ from decryption import *
 from version import *
 from release import *
 from dev_details import *
-from changename import *
 
 def scan_dir(dir_decision):
     if dir_decision == '1':
