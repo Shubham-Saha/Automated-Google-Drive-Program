@@ -1,6 +1,6 @@
 # Automated-Google-Drive-Program
 
-About the Program
+# About the Program
 
 In recent times, we are much more used to with cloud storages to store our data. There are many cloud storage providers around the world. Their main purpose is to store our data and provide us the data when we need it. 
 The most widely used cloud storage is Google Drive. In our day to day work we use it a lot. To use this we need to visit Google Drive’s website or navigate Google Drive’s application.
@@ -21,7 +21,7 @@ This program is for those users who use Google Drive in their daily work and nee
 
 This is a cross-platform program. It means this program can run on different OS machines.
 
-How this program works
+# How this program works
 
 This program establishes a connection with Google Drive using Google Drive API and for authentication and authorization OAuth 2.0 of Google is used.
 
@@ -31,31 +31,31 @@ This program is a open-source project and it has been uploaded on Github.
 
 https://github.com/Shubham-Saha/Automated-Google-Drive-Program
 
-Prerequisites
+# Prerequisites
 
 To run this file below things are needed to be installed in the machine if they are not present.
 
-Python 3.7 or above version. (Not below 3.7)
+1. Python 3.7 or above version. (Not below 3.7)
 
-pip 20.1.1 https://pypi.org/project/pip/
+2. pip 20.1.1 https://pypi.org/project/pip/
 
-google-auth-oauthlib 0.4.1 - https://pypi.org/project/google-auth-oauthlib/
+3. google-auth-oauthlib 0.4.1 - https://pypi.org/project/google-auth-oauthlib/
 
-google-api-python-client 1.9.2 https://pypi.org/project/google-api-python-client/
+4. google-api-python-client 1.9.2 https://pypi.org/project/google-api-python-client/
 
-google-auth 1.16.1 https://pypi.org/project/google-auth/
+5. google-auth 1.16.1 https://pypi.org/project/google-auth/
 
-PyDrive 1.3.1 https://pypi.org/project/PyDrive/
+6. PyDrive 1.3.1 https://pypi.org/project/PyDrive/
 
-pickle5 0.0.10 https://pypi.org/project/pickle5/
+7. pickle5 0.0.10 https://pypi.org/project/pickle5/
 
-pyAesCrypt 0.4.3 https://pypi.org/project/pyAesCrypt/
+8. pyAesCrypt 0.4.3 https://pypi.org/project/pyAesCrypt/
 
-Google Client Library :
+9. Google Client Library :
 
 pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
 
-Contribution
+# Contribution
 
 This program’s idea is pitched and supervised by my teacher, guide, and inspiration, 
 Md. Ishtiaq Iqbal Sir. 
@@ -64,21 +64,21 @@ He is a Lecturer & Course Coordinator in the Department of Information Technolog
 
 If any of you is interested to do some contribution in this project then feel free to fork this project and commit the changes on Github. But before doing this let us know about your purpose.
 
-Future Work
+# Future Work
 
 In future this program can:
 
-Update and modify files and folders.
+1. Update and modify files and folders.
 
-Upload folders.
+2. Upload folders.
 
-Delete files and folders.
+3. Delete files and folders.
 
-Download folders with/without encryption.
+4. Download folders with/without encryption.
 
 
 
-Contact
+# Contact
 
 Shubham Saha Shuv
 
@@ -86,6 +86,7 @@ Co-Founder & CEO, Monarchs Technologies Ltd.
 
 Email: shuv.monarchs@gmail.com
 
+------------------------------------------------------------------------------
 
 Md. Ishtiaq Iqbal 
 
@@ -98,7 +99,7 @@ University of Information Technology & Sciences, Dhaka
 Email: ishtiaq.iqbal@hotmail.com
 
 
-Exceptions in this program
+# Exceptions in this program
 
 While uploading files without encryption for the first an error may raise, something like this:
 
@@ -116,4 +117,4 @@ alt=json&uploadType=resumable returned "Bad Request">
 Don’t panic. This just raises because of an API request which is an exception of Google Drive API. Just wait for sometime and try again. Sooner or later it will work.
 
 
-Enjoy !!!!
+# Enjoy !!!!
